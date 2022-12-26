@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #e9dfdf;
+    font-family: "Roboto";
+    font-weight: bold;
+    font-size: 20px;
+}
+
+header {
+    width: 150px;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+    border: 2px solid black;
+    margin-top: 2%;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.box div {
+    height: 70px;
+    width: 70px;
+    border-radius: 35px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-size: 18px;
+    
+}
+
+.box {
+    background-color: white;
+    box-shadow: 5px 5px 8px 5px #888888;
+    display: grid;
+    width: 40%;
+    grid-template-columns: repeat(4 , 1fr);
+    border: 1px solid #000000;
+    margin: auto;
+    margin-top: 4%;
+    column-gap: 10px;
+    row-gap: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+.notification{
+    margin: auto;
+    color: rgb(3, 185, 3);
+    width: 20%;
+    padding: 25px;
+    text-align: center;
+    margin-top: 4%;
+    font-size: 20px;
+    font-weight: 800;
+    position: absolute;
+    left: 40%;
+    margin-top: 7%;
+    background-color: white;
+    border: 2px  solid  orange;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px 5px #888888;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+
+.restart {
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    opacity: 1;
+    font-size: 20px;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.restart a{
+    text-decoration: none;
+    color: white;
+}
+
+.details{
+    background-color: white;
+    padding: 10px;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3%;
+    font-size: 18px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 8px 5px #888888;
+}
+
+.number{
+    color: orange;
+    font-weight: bold;
+}
