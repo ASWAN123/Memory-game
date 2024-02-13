@@ -57,7 +57,7 @@ items.forEach((ele) => {
                     let moving = document.querySelector(".moves .number").innerText;
                     notification.className = "notification"
                     notification.innerHTML = `<span>Game Completed in ${timing} with ${moving} Moves</span>
-                     <button class= "restart" ><a href= "/">Restart</a></button>`
+                     <button class= "restart" ><a href= "/Memory-game/">Restart</a></button>`
                     document.body.insertBefore(notification , box) ;
 
                     // stop the time
